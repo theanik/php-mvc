@@ -6,10 +6,9 @@
  * $router->get()
  */
 
+require_once realpath("vendor/autoload.php");
 
- $router->get('/home', function(){
-    echo "heloooo";
- });
+ $router->get('/', ['App\Controller\HomeController','index']);
 
 
  
