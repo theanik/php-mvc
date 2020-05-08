@@ -1,7 +1,9 @@
 <?php
 
 if(!function_exists('view')){
-    function view($view = ""){
+    function view($view = "", $data = []){
+
+        // $data = 
         if(!empty($view) && "" != $view){
             $view = explode('.',$view);
             if(count($view) == 1){
