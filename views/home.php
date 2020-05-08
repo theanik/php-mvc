@@ -7,6 +7,8 @@
 </head>
 <body>
     <h1>Cool</h1>
+    <!-- i want to recived $user var here -->
+   
     
 </body>
 </html>

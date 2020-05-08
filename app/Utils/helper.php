@@ -2,8 +2,8 @@
 
 if(!function_exists('view')){
     function view($view = "", $data = []){
-
-        // $data = 
+        extract($data);
+        
         if(!empty($view) && "" != $view){
             $view = explode('.',$view);
             if(count($view) == 1){
@@ -19,3 +19,4 @@ if(!function_exists('view')){
         }
     }
 }
+
